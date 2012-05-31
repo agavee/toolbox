@@ -1,6 +1,6 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Util;
+namespace Agavee\Toolbox\Util;
 
 /**
  * Array Key Helper

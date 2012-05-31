@@ -1,8 +1,8 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Tests\Util;
+namespace Agavee\Tests\Toolbox\Util;
 
-use Agavee\Bundle\ToolboxBundle\Util\ArrayKeyHelper as Akh;
+use Agavee\Toolbox\Util\ArrayKeyHelper as Akh;
 
 class KeyHelperTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Tests\Model;
+namespace Agavee\Tests\Toolbox\Model;
 
-use Agavee\Bundle\ToolboxBundle\Model\Serializer;
-use Agavee\Bundle\ToolboxBundle\Tests\Models\Person;
+use Agavee\Toolbox\Model\Serializer;
+use Agavee\Tests\Toolbox\Models\Person;
 
 class SerializerTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Parameters;
+namespace Agavee\Toolbox\Parameters;
 
 use Doctrine\Common\Collections\ArrayCollection;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Tests\Models;
+namespace Agavee\Tests\Toolbox\Models;
 
-use Agavee\Bundle\ToolboxBundle\Model\Serializer;
-use Agavee\Bundle\ToolboxBundle\Model\SerializableInterface;
+use Agavee\Toolbox\Model\Serializer;
+use Agavee\Toolbox\Model\SerializableInterface;
 
 /**
  * Description of Person

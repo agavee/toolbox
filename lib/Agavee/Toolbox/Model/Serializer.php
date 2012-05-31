@@ -1,6 +1,6 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Model;
+namespace Agavee\Toolbox\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 

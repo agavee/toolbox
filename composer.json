@@ -22,7 +22,10 @@
 
     },
     "autoload": {
-        "psr-0": { "Agavee\\Bundle\\ToolboxBundle": "" }
+        "psr-0": {
+            "Agavee\\Toolbox": "lib",
+            "Agavee\\Tests\\Toolbox": "tests"
+        }
     },
-    "target-dir": "Agavee/Bundle/ToolboxBundle"
+    "target-dir": "agavee/toolbox"
 }

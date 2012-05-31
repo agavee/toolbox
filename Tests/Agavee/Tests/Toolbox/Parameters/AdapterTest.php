@@ -1,8 +1,8 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Tests\Parameters;
+namespace Agavee\Tests\Toolbox\Parameters;
 
-use Agavee\Bundle\ToolboxBundle\Parameters\Adapter as ParametersAdapter;
+use Agavee\Toolbox\Parameters\Adapter as ParametersAdapter;
 use Doctrine\Common\Collections\ArrayCollection;
 
 class AdapterTest extends \PHPUnit_Framework_TestCase

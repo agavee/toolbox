@@ -1,8 +1,8 @@
 <?php
 
-namespace Agavee\Bundle\ToolboxBundle\Tests\Parameters;
+namespace Agavee\Tests\Toolbox\Parameters;
 
-use Agavee\Bundle\ToolboxBundle\Parameters\Checker as ParametersChecker;
+use Agavee\Toolbox\Parameters\Checker as ParametersChecker;
 
 class CheckerTest extends \PHPUnit_Framework_TestCase
 {
