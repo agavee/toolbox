@@ -2,4 +2,4 @@
 report/
 vendor/
 logs/
-docs/
+composer.lock

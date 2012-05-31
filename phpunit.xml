@@ -11,7 +11,7 @@
     processIsolation            = "false"
     stopOnFailure               = "false"
     syntaxCheck                 = "false"
-    bootstrap                   = "Tests/tests/bootstrap.php" >
+    bootstrap                   = "vendor/autoload.php" >
 
     <testsuites>
         <testsuite name="Agavee Toolbox Test Suite">
@@ -23,8 +23,8 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
-                <directory>./Tests/</directory>
-                <directory>./DataFixtures/</directory>
+                <directory>./logs/</directory>
+                <directory>./tests/</directory>
                 <directory>./vendor/</directory>
             </exclude>
         </whitelist>
