@@ -25,6 +25,5 @@
             "Agavee\\Toolbox": "lib",
             "Agavee\\Tests\\Toolbox": "tests"
         }
-    },
-    "target-dir": "agavee/toolbox"
+    }
 }
