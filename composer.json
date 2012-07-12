@@ -1,7 +1,7 @@
 {
-    "name": "agavee/toolbox-bundle",
-    "type": "symfony-bundle",
-    "description": "Symfony AgaveeToolboxBundle",
+    "name": "agavee/toolbox",
+    "type": "utility",
+    "description": "PHP Utility Classes",
     "keywords": ["utils"],
     "homepage": "http://agavee.com",
     "license": "MIT",
@@ -13,13 +13,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3.2",
-        "doctrine/common": "2.2.*"
+        "php": ">=5.3.2"
     },
     "require-dev": {
     },
     "suggest": {
-
     },
     "autoload": {
         "psr-0": {
