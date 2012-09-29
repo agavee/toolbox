@@ -1,0 +1,28 @@
+{
+    "name": "agavee/toolbox-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony AgaveeToolboxBundle",
+    "keywords": ["utils"],
+    "homepage": "http://agavee.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Claudio Beatrice",
+            "email": "claudio@agavee.com",
+            "homepage": "http://agavee.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/common": "2.2.*"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+
+    },
+    "autoload": {
+        "psr-0": { "Agavee\\Bundle\\ToolboxBundle": "" }
+    },
+    "target-dir": "Agavee/Bundle/ToolboxBundle"
+}

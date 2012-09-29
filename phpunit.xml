@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- http://www.phpunit.de/manual/current/en/appendixes.configuration.html -->
+<phpunit
+    backupGlobals               = "false"
+    backupStaticAttributes      = "false"
+    colors                      = "true"
+    convertErrorsToExceptions   = "true"
+    convertNoticesToExceptions  = "true"
+    convertWarningsToExceptions = "true"
+    processIsolation            = "false"
+    stopOnFailure               = "false"
+    syntaxCheck                 = "false"
+    bootstrap                   = "Tests/tests/bootstrap.php" >
+
+    <testsuites>
+        <testsuite name="Agavee Toolbox Test Suite">
+            <directory>./Tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>./</directory>
+            <exclude>
+                <directory>./Tests/</directory>
+                <directory>./DataFixtures/</directory>
+                <directory>./vendor/</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+    <logging>
+      <log type="coverage-html" target="report" charset="UTF-8"
+           yui="true" highlight="false"
+           lowUpperBound="35" highLowerBound="70"/>
+      <log type="tap" target="logs/logfile.tap"/>
+    </logging>
+</phpunit>
